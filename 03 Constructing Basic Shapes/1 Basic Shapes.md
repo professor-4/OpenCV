@@ -22,3 +22,11 @@ def show_with_matplotlib(img, title):
     plt.title(title)
     plt.show()
 ```
+```python
+#create the canvas to draw: 400 x 400 pixels, 3 channels, uint8 (8-bit unsigned integers)
+#set the background to black using np.zeros()
+image = np.zeros((400, 400, 3), dtype="uint8")
+
+#we can change the background to our preferred colour 
+image[:] = colors['light_gray']
+```
