@@ -39,6 +39,9 @@ cv2.rectangle(image, (0, 0), (100, 100), colors['blue'], 3)
 ret, p1, p2 = cv2.clipLine((0, 0, 100, 100), (0, 0), (300, 300))
 if ret:
 cv2.line(image, p1, p2, colors['yellow'], 3)
+
+show_with_matplotlib(images,"Clip line")
+```
 <p align = "center">
 <img src= "https://github.com/professor-4/OpenCV/blob/main/03%20Constructing%20Basic%20Shapes/Output_pic/DrawingClipLine.JPG" width ="500" height="400" >
 </p>
