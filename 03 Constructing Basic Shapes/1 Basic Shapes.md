@@ -42,3 +42,5 @@ cv2.line(image, (0, 400), (400, 0), colors['blue'], 10)
 #printing image
 show_with_matplotlib(image, 'Basic Line')
 ```
+
+![](https://github.com/professor-4/OpenCV/blob/main/03%20Constructing%20Basic%20Shapes/Output_pic/DrawingLine.JPG)
