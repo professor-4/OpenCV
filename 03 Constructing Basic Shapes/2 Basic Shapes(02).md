@@ -46,6 +46,7 @@ show_with_matplotlib(images,"Clip line")
 <img src= "https://github.com/professor-4/OpenCV/blob/main/03%20Constructing%20Basic%20Shapes/Output_pic/DrawingClipLine.JPG" width ="500" height="400" >
 </p>
 
+-----------------------------------------------------------------
 ## Drawing Arrow
 cv.arrowedLine(img, pt1, pt2, color, thickness=1, lineType=8, shift=0,
 tipLength=0.1)
@@ -58,6 +59,7 @@ show_with_matplotlib(image,'Clipline')
 <img src= "https://github.com/professor-4/OpenCV/blob/main/03%20Constructing%20Basic%20Shapes/Output_pic/DrawingArrow.JPG" width ="500" height="400" >
 </p>
 
+---------------------------------------------------------------
 
 
 
