@@ -32,6 +32,7 @@ image[:] = colors['light_gray']
 ```
 
 ## Drawing Lines 
+fuction with it's parameters to drawing line - 
 cv2.line(img, pt1, pt2, color, thickness=1, lineType=8, shift=0)
 
 ```python
