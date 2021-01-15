@@ -30,3 +30,14 @@ image = np.zeros((400, 400, 3), dtype="uint8")
 #we can change the background to our preferred colour 
 image[:] = colors['light_gray']
 ```
+
+## Drawing Lines 
+cv2.line(img, pt1, pt2, color, thickness=1, lineType=8, shift=0)
+
+```python
+cv2.line(image, (0, 0), (400, 400), colors['green'], 3)
+cv2.line(image, (0, 400), (400, 0), colors['blue'], 10)
+
+#printing image
+show_with_matplotlib(image, 'Basic Line')
+```
