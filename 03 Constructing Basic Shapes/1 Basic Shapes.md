@@ -61,6 +61,20 @@ show_with_matplotlib(image, "Rectangle")
           </p>
           
 ----------------------------------------------------------------------
+## Drawing Circle 
+function for drawing circle is - circle(img, center, radius, color, thickness=1, lineType=8, shift=0)
+
+```python
+# cv2.circle(image, (50, 50), 40, colors['green'], 3)
+# cv2.circle(image, (100, 100), 30, colors['blue'], -1)
+
+show_with_matplotlib(image,'Circle')
+```
+<p align = "center">
+          <img src = "https://github.com/professor-4/OpenCV/blob/main/03%20Constructing%20Basic%20Shapes/Output_pic/DrawingCircle.JPG"  width ="500" height="400" >
+          </p>
+          
+--------------------------------------------------------------------------
 
 
 
